@@ -3,7 +3,7 @@
 ## 项目介绍
 
 本项目用于存储罗老师上课期间所布置的小组大作业
-
+[github](https://github.com/)
 ### 项目 1：Hog 游戏
 
 #### 1. 介绍
@@ -61,7 +61,7 @@ python hog_grader.py
 上面的命令运行所有测试，直到发生错误，此时它将停止并打印一些错误消息。您还可以针对特定问题运行测试-q：
 
 ```python
- pythonhog_grader.py -q 1
+ python hog_grader.py -q 1
 ```
 
 在 中 hog.py，我们还提供了一种从终端交互调用某些函数的方法：
@@ -91,7 +91,7 @@ python hog_grader.py -q 1
 还可以运行交互式测试：
 
 ```python
-  pythonhog.py -i roll_dice
+  python hog.py -i roll_dice
 ```
 
 ##### 问题 2 （1 分)
@@ -222,7 +222,7 @@ python hog_grader.py -q 7
 
 如果投掷 0 次不会导致交换，那么它至少能获得 BACON_MARGIN 点数，否则投掷 BASELINE_NUM_ROLLS 次 。
 
-测试实现代码：
+测试实现代码：  
 
 ```python
 python hog_grader.py -q 8
